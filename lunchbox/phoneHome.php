@@ -1,5 +1,10 @@
 #!/usr/bin/php
 <?php
+  // Network Lunchbox - http://lunchbox.jasonantman.com
+  // $LastChangedRevision$
+  // $HeadURL$
+
+
   // Network Lunchbox phone home script
 require_once('/lunchbox/lunchbox-funcs.php');
 require_once('/lunchbox/staticconfig.php');

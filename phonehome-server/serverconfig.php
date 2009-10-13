@@ -5,8 +5,10 @@
   // $HeadURL$
 
 
-$vernum = 0.1;
-$verstr = "Network Lunchbox v0.1 by Jason Antman";
-
+$dbHost = "";
+$dbUser = "";
+$dbPass = "";
+$dbName = "lunchbox";
+$tblPfx = "";
 
 ?>

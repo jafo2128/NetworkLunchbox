@@ -1,0 +1,24 @@
+Note on Subversion for http://lunchbox.jasonantman.com
+(http://svn.jasonantman.com/NetworkLunchbox/lunchbox/)
+
+# $LastChangedRevision$
+# $HeadURL$
+
+The image and filesystem archive files have the following naming convention:
+
+For filesystem archives:
+lunchbox(ver)-hda{1|2}_r(SVNrev).tar.bz2
+For CF card images:
+lunchbox(ver)_r(SVNrev).img.bz2
+
+(ver) - Network Lunchbox version (as seen at lunchbox.jasoantman.com or in
+/lunchbox/version.php)
+(SVNrev) - The revision number of the SVN repository that this image matches
+up to.
+
+Examples for Lunchbox v0.1, SVN revision 3:
+
+lunchbox0.1-hda1_r3.tar.bz2 - hda1 (/) filesystem archive
+lunchbox0.1-hda2_r3.tar.bz2 - hda2 (/var) filesystem archive
+lunchbox0.1_r3.img.bz2 - CF card image
+

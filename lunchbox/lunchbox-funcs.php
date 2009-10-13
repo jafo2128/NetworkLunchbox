@@ -1,5 +1,10 @@
 <?php
 
+// Network Lunchbox - http://lunchbox.jasonantman.com
+// $LastChangedRevision$
+// $HeadURL$
+
+
 function genStaticConfig()
 {
   $fname = "/lunchbox/staticconfig.php";

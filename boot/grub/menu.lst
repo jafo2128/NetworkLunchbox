@@ -1,0 +1,22 @@
+## Network Lunchbox - http://lunchbox.jasonantman.com
+## $LastChangedRevision$
+## $HeadURL$
+
+default		0
+timeout		5
+serial --unit=0 --speed=19200
+terminal serial
+
+## ## End Default Options ##
+
+title		Debian GNU/Linux, kernel 2.6.26-2-486
+root		(hd0,0)
+kernel		/boot/vmlinuz-2.6.26-2-486 root=/dev/hda1 ro console=ttyS0,19200n81 acpi=off
+initrd		/boot/initrd.img-2.6.26-2-486
+
+title		Debian GNU/Linux, kernel 2.6.26-2-486 (single-user mode)
+root		(hd0,0)
+kernel		/boot/vmlinuz-2.6.26-2-486 root=/dev/hda1 ro single console=ttyS0,19200n81
+initrd		/boot/initrd.img-2.6.26-2-486
+
+### END DEBIAN AUTOMAGIC KERNELS LIST

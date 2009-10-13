@@ -1,0 +1,8 @@
+# Network Lunchbox - http://lunchbox.jasonantman.com
+# $LastChangedRevision$
+# $HeadURL$
+#fs	       mount 	 type	options		dump	pass
+proc	       /proc	 proc	defaults	0	0
+/dev/hda2      /var	 ext2	defaults	0	0
+/dev/hda1      /	 ext2	defaults,ro	0	0
+tmpfs		/tmp	tmpfs	rw,nosuid,nodev 0	0

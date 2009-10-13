@@ -1,5 +1,9 @@
 Network Lunchbox v0.1 by Jason Antman
 
+# Network Lunchbox - http://lunchbox.jasonantman.com
+# $LastChangedRevision$
+# $HeadURL$
+
 http://lunchbox.jasonantman.com
 
 SETTING UP ON A NEW DEVICE:
@@ -7,7 +11,7 @@ SETTING UP ON A NEW DEVICE:
 -change root password (default 'changeme')
 -change lunchbox user password (default 'lunchbox')
 -change the hostname (/etc/hostname)
-
+-run /lunchbox/setup.php
 - You should also update a DNS pointer to the box.
 
 HOW TO USE:

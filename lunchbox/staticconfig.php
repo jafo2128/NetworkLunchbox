@@ -1,5 +1,10 @@
 <?php
 
+  // Network Lunchbox - http://lunchbox.jasonantman.com
+  // $LastChangedRevision$
+  // $HeadURL$
+
+
 $PATH_ifconfig = "/sbin/ifconfig";
 $PATH_ethtool = "/sbin/ethtool";
 $PATH_tcpdump = "/usr/sbin/tcpdump";

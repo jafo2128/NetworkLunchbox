@@ -1,5 +1,9 @@
 <?php
 
+// Network Lunchbox - http://lunchbox.jasonantman.com
+// $LastChangedRevision$
+// $HeadURL$
+
 
 /*-------------------------------------------------------------------------
 

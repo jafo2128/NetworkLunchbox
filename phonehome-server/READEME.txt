@@ -1,0 +1,20 @@
+Network Lunchbox (http://lunchbox.jasonantman.com
+
+# Network Lunchbox - http://lunchbox.jasonantman.com
+# $LastChangedRevision$
+# $HeadURL$
+
+
+Phone Home Server Installation
+
+Requirements:
+PHP5
+php5-mcrypt
+php5-mhash
+php5-hash
+
+Installation:
+1) Create a database for lunchbox.
+2) Copy config.php and cryptastic.php from the /lunchbox/ directory on the
+    Lunchbox box itself.
+3) Update serverConfig.php for your environment.

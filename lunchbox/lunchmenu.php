@@ -2,6 +2,12 @@
 <?php
 // Network Lunchbox v0.1
 // lunchbox.php - main wrapper script
+
+  // Network Lunchbox - http://lunchbox.jasonantman.com
+  // $LastChangedRevision$
+  // $HeadURL$
+
+
 require_once('/lunchbox/version.php');
 require_once('/lunchbox/staticconfig.php');
 require_once('/lunchbox/lunchbox-funcs.php');
