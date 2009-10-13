@@ -14,7 +14,7 @@ $cryptastic = new cryptastic;
 
 if(! isset($_POST['bar']))
 {
-    die("Dieing...");
+  die("<ul><li>You are the weakest link. <em>Goodbye.</em></li><li><em>You</em> are the weakest link. Goodbye.</li><li>You <em>are</em> the weakest link. Goodbye.</li><li>You are <em>the</em> weakest link. Goodbye.</li><li>You are the <em>weakest</em> link. Goodbye.</li><li>You are the weakest <em>link</em>. Goodbye. <strong>???</strong></li></ul>");
 }
 
 $bar = decrypt($_POST['bar']);
